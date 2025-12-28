@@ -1,13 +1,13 @@
 from moviepy import VideoFileClip
 
-INPUT_VIDEO = "373-demo-final.mp4"     # path to your MP4
-OUTPUT_GIF = "output.gif"
+INPUT_VIDEO = "../../final_hallway.mp4"     # path to your MP4
+OUTPUT_GIF = "../../hallway.gif"
 
-START_TIME = 53.0
-END_TIME = 70.0
+START_TIME = 0.0
+END_TIME = 16.5
 
-FPS = 10
-SCALE = 0.4
+FPS = 15
+SCALE = 3.0
 
 clip = VideoFileClip(INPUT_VIDEO)
 
